@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div>
+    <div className="text-white">
       <section class="mx-8">
         <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
@@ -16,9 +16,9 @@ export default function Skills() {
 
               <a
                 href="#"
-                class="mt-8 inline-block rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                class="mt-8 inline-block rounded bg-red-300 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-400 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Get Started Today
+                Download Resume
               </a>
             </div>
 

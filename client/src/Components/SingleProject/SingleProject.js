@@ -1,11 +1,12 @@
 import React from "react";
+import ModalContect from "../Modal Content/ModalContect";
 
 export default function SingleProject() {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
     <div>
-      <article class="overflow-hidden h-[400px] bg-red-200 rounded-lg border border-gray-100 shadow-sm overflow-y-scroll">
+      <article class="overflow-hidden h-[400px] bg-red-300 rounded-lg border border-gray-100 shadow-sm ">
         <img
           alt="Office"
           src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
@@ -13,27 +14,22 @@ export default function SingleProject() {
         />
 
         <div class="p-4 sm:p-6">
-          <h3 class="text-lg font-medium text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+          <h3 class="text-lg font-medium text-gray-900">Zibah Creations</h3>
 
-          <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus pariatur animi temporibus nesciunt praesentium
-            dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
-            dignissimos. Molestias explicabo corporis voluptatem?
-          </p>
+
         </div>
-        <div className="mt-4 md:mt-8">
+        <div className="mt-4 md:mt-8 px-6">
           <button
-            className="bg-teal-500 text-white active:bg-teal-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            className="bg-blue-200 text-white active:bg-blue-300 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModal(true)}
-            
           >
             See more
           </button>
 
           {showModal ? (
             <>
-              <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+              <div className="justify-center text-black items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                 <div className="relative w-auto my-6 mx-auto max-w-3xl">
                   {/*content*/}
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -48,7 +44,9 @@ export default function SingleProject() {
                       </button>
                     </div>
                     {/*body*/}
-                    <p>hiiiii</p>
+                    <div className="h-[50vh] overflow-y-scroll">
+                      <ModalContect />
+                    </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
                       <button
@@ -70,5 +68,3 @@ export default function SingleProject() {
     </div>
   );
 }
-
-

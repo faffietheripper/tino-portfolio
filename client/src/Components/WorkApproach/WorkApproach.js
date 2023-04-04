@@ -3,7 +3,7 @@ import React from "react";
 export default function WorkApproach() {
   return (
     <div>
-      <section class="bg-gray-900 text-white px-14">
+      <section class=" text-white px-14">
         <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="max-w-xl">
             <h2 class="text-3xl font-bold sm:text-4xl">What makes my work special🐬</h2>
@@ -20,7 +20,7 @@ export default function WorkApproach() {
               <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -51,7 +51,7 @@ export default function WorkApproach() {
               <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -82,7 +82,7 @@ export default function WorkApproach() {
               <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path

@@ -4,7 +4,7 @@ export default function SingleTestimonial() {
   return (
     <div>
       <div class="mx-auto max-w-5xl px-4 py-8">
-        <section class="rounded-lg bg-red-100 p-8">
+        <section class="rounded-lg bg-red-300 p-8">
           <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
             <img
               alt="Man"
