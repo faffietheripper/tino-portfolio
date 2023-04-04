@@ -4,9 +4,9 @@ export default function FAQs() {
   return (
     <div class="my-8">
       <div class="space-y-4 mx-8">
-        <h1 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl my-10"> Frequently Asked Questions </h1>
+        <h1 class="text-center text-3xl font-extrabold text-indigo-900 sm:text-4xl my-10"> Frequently Asked Questions </h1>
 
-        <details class="group border-l-4 border-blue-200 bg-red-300 p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group border-l-4 border-red-200 bg-blue-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
             <h2 class="text-lg font-medium text-white">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
 
@@ -32,7 +32,7 @@ export default function FAQs() {
           </p>
         </details>
 
-        <details class="group border-l-4 border-blue-200 bg-red-300 p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group border-l-4 border-red-200 bg-blue-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
             <h2 class="text-lg font-medium text-white">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
 
@@ -58,7 +58,7 @@ export default function FAQs() {
           </p>
         </details>
 
-        <details class="group border-l-4 border-blue-200 bg-red-300 p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group border-l-4 border-red-200 bg-blue-200 p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex items-center justify-between cursor-pointer">
             <h2 class="text-lg font-medium text-white">Lorem ipsum dolor sit amet consectetur adipisicing?</h2>
 

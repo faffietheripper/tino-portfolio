@@ -17,7 +17,7 @@ export default function WorkApproach() {
           <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 text-black">
             <section>
               {" "}
-              <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+              <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
                 <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -44,11 +44,11 @@ export default function WorkApproach() {
                     <p class="mt-8 font-bold">Read more</p>
                   </div>
                 </div>
-              </a>
+              </div>
             </section>{" "}
             <section>
               {" "}
-              <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+              <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
                 <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -75,11 +75,11 @@ export default function WorkApproach() {
                     <p class="mt-8 font-bold">Read more</p>
                   </div>
                 </div>
-              </a>
+              </div>
             </section>{" "}
             <section>
               {" "}
-              <a href="" class="group relative block h-64 sm:h-80 lg:h-96">
+              <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
                 <div class="relative flex h-full transform items-end border-2 border-black bg-blue-200 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -106,7 +106,7 @@ export default function WorkApproach() {
                     <p class="mt-8 font-bold">Read more</p>
                   </div>
                 </div>
-              </a>
+              </div>
             </section>
           </div>
         </div>

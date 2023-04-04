@@ -7,7 +7,7 @@ export default function Footer() {
       <footer aria-label="Site Footer" class="bg-black text-white">
         <div class="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
           <div class="text-center">
-            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-5xl">Connect with me🤝 </h2>
+            <h2 class="text-3xl font-extrabold text-indigo-900 sm:text-5xl">Connect with me🤝 </h2>
 
             <p class="max-w-sm mx-auto mt-4 text-gray-500">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil.
