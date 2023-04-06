@@ -9,7 +9,7 @@ export default function SingleProject() {
       <article class="overflow-hidden h-[400px] rounded-lg border border-gray-100 shadow-sm ">
         <img
           alt="Office"
-          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          src="https://lh3.googleusercontent.com/gAn8MMAo8xgKIjyB8QBjv07V015XM7p5CTXwXfQSpfkZcqrUUmAzqzw1SOTPw-5T9U-225P3_FBlmhpwh9q6H-WErEVOSRM3zIHFQ9EbVH-28RmTaO_mkJoQiaxNzIxzJUfNbBE01xI3kTmywsC6BbImL_piU-gsreUKS3qQ00C_smxdJP0wG7PR_VLreAddQ9jAeM0LZ43Rc04TMPQ_32w9z6amGtwXjlb39swH2t77JEgmpxDsxnqCTWqFs2aXQyb41aeC7I0y8GSapCUE8pFkRrcoEceNL7SdxrngX8B6ychp0bb7cKsShehB0WsmvI7nza3611okK5Xx4EXOb3EbYekcZ8ZWugamB0loAiaQkg83Ws5yh8fHo5SRlaLN1sgsoUsWvVLJ_S32evynUmvo-4TFsuoHCIzmyROMV8nbgZBQKTNbmERcX5sTE6SGXb-8ts3k7TP61lwe2neWOWyS5HM7d5G5CSTnvi23o7fUjK4BlhbNa9_r6vEe5lH68fuoya0C8WtCBB-Rn0FJjVztYjFfza4fm-5WlaF-4qDkwQQgMx10Dmy55TlU3d0tKTXlQr2Q-h6aCQw9SPYZ6mPylQnDSu-X9_thL_Z6HqQK46P3xayN5IwXijzh-FbrbcZ6Aw7lZZsjYJlvXR9066rkzI2rOrnANWb7P20ZJWeiVJdgCZvw_SG-fOT54KRKB68WfUPF6DjZZG00YMBix-PMY-0jHyDN3yroGyPesE-ZPeGYvxYkUKegQtou--hNAE75_HiXq4uJQywOsge38WCrv_aVn_jsm8FGY4IUiXfZcpqUnhDntJRJU1D9KvSA3peyAXpdw66xdaAvd5_8cI7Fh83cg5u-cdTJ2ebik91JrsciRYJ1gCyB-T96okIXGn-7TWWuQMnVNrSDzX9Acny1VPgfdbb9rpJn_bahk0-25Dh4=w1057-h1057-s-no?authuser=0"
           class="h-56 w-full object-cover"
         />
 
