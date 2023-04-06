@@ -15,7 +15,7 @@ export default function Skills() {
               </p>
 
               <a
-                href=" https://drive.google.com/file/d/12FBV5APG9Q0KJu_gDbvOFkFkgmaOUrDS/view?usp=share_link"
+                href="https://resume.io/r/cxMvqHpCd"
                 download
                 class="mt-8 inline-block rounded bg-blue-300 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-400 focus:outline-none focus:ring focus:ring-yellow-400"
               >
