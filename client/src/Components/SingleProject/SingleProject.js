@@ -1,17 +1,13 @@
 import React from "react";
-import ModalContect from "../Modal Content/ModalContect";
+import { Link } from "react-router-dom";
 
-export default function SingleProject({coverimg, name}) {
+export default function SingleProject({ coverimg, name, description, link }) {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
     <div>
       <article class="overflow-hidden h-[400px] rounded-lg border border-gray-100 shadow-sm ">
-        <img
-          alt="Office"
-          src={coverimg}
-          class="h-56 w-full object-cover"
-        />
+        <img alt="Office" src={coverimg} class="h-56 w-full object-cover" />
 
         <div class="p-4 sm:p-6">
           <h3 class="text-lg font-medium text-white-900">{name}</h3>
@@ -43,7 +39,61 @@ export default function SingleProject({coverimg, name}) {
                     </div>
                     {/*body*/}
                     <div className="h-[50vh] overflow-y-scroll">
-                      <ModalContect />
+                      <section>
+                        <div class="relative mx-auto max-w-screen-xl px-4 py-8">
+                          <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
+                            <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
+                              <img
+                                alt="Les Paul"
+                                src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                class="aspect-square w-full rounded-xl object-cover"
+                              />
+
+                              <div class="grid grid-cols-2 gap-4 lg:mt-4">
+                                <img
+                                  alt="Les Paul"
+                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  class="aspect-square w-full rounded-xl object-cover"
+                                />
+
+                                <img
+                                  alt="Les Paul"
+                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  class="aspect-square w-full rounded-xl object-cover"
+                                />
+
+                                <img
+                                  alt="Les Paul"
+                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  class="aspect-square w-full rounded-xl object-cover"
+                                />
+
+                                <img
+                                  alt="Les Paul"
+                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  class="aspect-square w-full rounded-xl object-cover"
+                                />
+                              </div>
+                            </div>
+
+                            <div class="sticky top-0">
+                              <h2 className="text-3xl">{name}</h2>
+
+                              <div class="mt-4">
+                                <div class="prose max-w-none flex flex-col justify-center">
+                                  <p>{description}</p>
+                                  <Link
+                                    to={link}
+                                    class="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                                  >
+                                    Visit this website
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
