@@ -6,7 +6,7 @@ export default function Testimonials() {
     <section class="bg-black text-white px-12">
       <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div class="max-w-xl">
-          <h2 class="text-3xl font-bold sm:text-4xl">Some of my happy clients</h2>
+          <h2 class="text-3xl font-bold sm:text-4xl">05.Some of my happy clients</h2>
 
           <p class="mt-4 text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum

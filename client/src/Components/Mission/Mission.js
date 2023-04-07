@@ -6,7 +6,7 @@ export default function Mission() {
       <section className="text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-5xl">Better design, better experience.</h2>
+            <h2 class="text-3xl font-bold sm:text-5xl">03.Better design, better experience.</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">

@@ -40,7 +40,7 @@ export default function MedvilleDesc() {
                 </p>
                 <Link
                   to="/contact"
-                  class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  class="mt-8 inline-block rounded border border-blue-400 bg-blue-400 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-400 focus:outline-none focus:ring active:text-blue-300"
                 >
                   Get in Touch
                 </Link>

@@ -7,19 +7,19 @@ export default function Skills() {
         <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
             <div class="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-              <h2 class="text-3xl font-bold sm:text-4xl">My Skillset</h2>
+              <h2 class="text-3xl font-bold sm:text-4xl">02.My Skillset</h2>
 
               <p class="mt-4 text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda?
-                Deleniti quasi inventore, libero reiciendis minima aliquid tempora. Obcaecati, autem.
+                With a mission to exploit and present the possibilities of web development, I plan on learning PHP and Laravel but the following are a few
+                technologies I have been working with recently. You can read more about my experience, skills, education and much more in the resume below👇
               </p>
 
               <a
                 href="https://resume.io/r/cxMvqHpCd"
                 download
-                class="mt-8 inline-block rounded bg-blue-300 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-400 focus:outline-none focus:ring focus:ring-yellow-400"
+                class="mt-8 inline-block rounded bg-blue-400 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-400 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Download Resume
+                View Resume
               </a>
             </div>
 
