@@ -26,7 +26,7 @@ export default function ProjectsGrid() {
               />
             </div>
             <div class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
-              <SingleProject name="Personal Portfolio" description="this is my portfolio " link="https://tinompofu.netlify.app/projects" />
+              <SingleProject  name="Personal Portfolio" description="this is my portfolio " link="https://tinompofu.netlify.app/projects" />
             </div>
             <div class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
               <SingleProject name="Jaylee Group(Building)" description="this is my accounting website" link=""/>

@@ -10,8 +10,8 @@ export default function HomeHero() {
         <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div class="max-w-xl text-center sm:text-left">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-              01.hey there 👋 I am
-              <strong class="block font-extrabold text-blue-300">tino mpofu.</strong>
+              01.Hey there 👋 I am
+              <strong class="block font-extrabold text-blue-300">Tino Mpofu.</strong>
             </h1>
 
             <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">Professional Full Stack Web Developer </p>
