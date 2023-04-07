@@ -1,5 +1,4 @@
 import "./App.css";
-import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Projects/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -17,8 +16,6 @@ function App() {
         <Route path="/medville" element={<SkyRockers />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
-      <Footer />
     </BrowserRouter>
   );
 }

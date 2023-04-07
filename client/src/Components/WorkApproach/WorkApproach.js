@@ -6,12 +6,9 @@ export default function WorkApproach() {
       <section class=" text-white px-14">
         <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="max-w-xl">
-            <h2 class="text-3xl font-bold sm:text-4xl">What makes my work special🐬</h2>
+            <h2 class="text-3xl font-bold sm:text-4xl">02.What makes my work special🐬</h2>
 
-            <p class="mt-4 text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
-              sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
-            </p>
+            <p class="mt-4 text-gray-300">This is the approach I take everytime I start a new project and I believe that</p>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 text-black">
@@ -20,7 +17,7 @@ export default function WorkApproach() {
               <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-300 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-gray-100 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -38,7 +35,8 @@ export default function WorkApproach() {
                     <h3 class="mt-4 text-xl font-medium sm:text-2xl">Research</h3>
 
                     <p class="mt-4 text-sm sm:text-base">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+                      Understand the client’s subject matter completely and build on the knowledge related to it, becoming intimately familiar with
+                      the subject matter. Determine methods to address the specific customer’s needs and requirements.
                     </p>
                   </div>
                 </div>
@@ -49,7 +47,7 @@ export default function WorkApproach() {
               <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-300 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-gray-100 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -67,7 +65,8 @@ export default function WorkApproach() {
                     <h3 class="mt-4 text-xl font-medium sm:text-2xl">Design</h3>
 
                     <p class="mt-4 text-sm sm:text-base">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+                      Misleadingly thought of as the superficial appearance of a product, design actually encompasses a lot more. It is a cross
+                      functional process that includes market research, technical research, design of a concept, and prototype mockup.
                     </p>
                   </div>
                 </div>
@@ -78,7 +77,7 @@ export default function WorkApproach() {
               <div class="group relative block h-64 sm:h-80 lg:h-96">
                 <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-                <div class="relative flex h-full transform items-end border-2 border-black bg-blue-300 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                <div class="relative flex h-full transform items-end border-2 border-black bg-gray-100 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
                   <div class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 sm:h-12 sm:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -96,7 +95,8 @@ export default function WorkApproach() {
                     <h3 class="mt-4 text-xl font-medium sm:text-2xl">Develop</h3>
 
                     <p class="mt-4 text-sm sm:text-base">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem omnis atque culpa repellendus.
+                      Findings from the research and design phases are utilized for the production of specific products including materials, systems,
+                      and methods. Engineer utilizing the research and designs to produce commercial products for the customer.
                     </p>
                   </div>
                 </div>

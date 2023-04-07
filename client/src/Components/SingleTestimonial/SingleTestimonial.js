@@ -3,31 +3,33 @@ import React from "react";
 export default function SingleTestimonial() {
   return (
     <div>
-      <div class="mx-auto max-w-5xl px-4 py-8">
-        <section class="rounded-lg bg-blue-300 p-8">
-          <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
-            <img
-              alt="Man"
-              src="https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-              class="aspect-square w-full rounded-lg object-cover"
-            />
+      <div>
+          <blockquote class="bg-gray-100 p-8 text-black">
+            <div class="flex items-center gap-4">
+              <img
+                alt="Dog"
+                src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                class="h-16 w-16 rounded-full object-cover"
+              />
 
-            <blockquote class="sm:col-span-2">
-              <p class="text-xl font-medium sm:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut nobis excepturi, quasi iure quisquam autem
-                alias.
-              </p>
+              <div class="text-sm">
+                <p class="font-medium">Bark Dagleish</p>
+                <p class="mt-1">Head of Barketing</p>
+              </div>
+            </div>
 
-              <cite class="mt-8 inline-flex items-center not-italic">
-                <span class="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
-                <p class="text-sm uppercase text-gray-500 sm:ml-3">
-                  <strong>Justin Harrison</strong>, Beatle Inc.
-                </p>
-              </cite>
-            </blockquote>
-          </div>
-        </section>
-      </div>
+            <p class="relative mt-4 text-gray-500">
+              <span class="text-xl">&ldquo;</span>
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              assumenda officiis sit amet itaque eveniet accusantium corporis
+              tempora, soluta perspiciatis rerum, ratione animi nemo inventore
+              repellat, commodi in esse quisquam.
+
+              <span class="text-xl">&rdquo;</span>
+            </p>
+          </blockquote>
+        </div>
     </div>
   );
 }

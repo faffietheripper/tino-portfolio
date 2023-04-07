@@ -6,7 +6,7 @@ export default function Mission() {
       <section className="text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-5xl">03.Better design, better experience.</h2>
+            <h2 class="text-3xl font-bold sm:text-5xl">04.Better design, better experience.</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -21,15 +21,11 @@ export default function Mission() {
             <div class="lg:py-16">
               <article class="space-y-4 text-gray-600">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
-                  minus veniam tempora deserunt? Molestiae eius quidem quam repellat.
+                  Having recently graduated from a full stack web development bootcamp my coding skills arent as advanced as the average experienced software developer however as mentioned above, I plan on continuing to learn new programming languages so that I can be able to create fluent and fashionable user experiences.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum explicabo quidem voluptatum voluptas illo accusantium ipsam quis,
-                  vel mollitia? Vel provident culpa dignissimos possimus, perferendis consectetur odit accusantium dolorem amet voluptates aliquid,
-                  ducimus tempore incidunt quas. Veritatis molestias tempora distinctio voluptates sint! Itaque quasi corrupti, sequi quo odit illum
-                  impedit!
+                 As far as React applications are concerned, I am equipped with just the right tools, and can absolutely function independently with them to deliver fast and resilient solutions optimized for scale.
                 </p>
               </article>
             </div>

@@ -24,11 +24,18 @@ export default function ContactUs() {
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:col-span-2 lg:py-12">
-            <h2> Leave me a message</h2>
-            <h1> Want to work together and create amazing products with me?</h1>
+            <h2 class="text-2xl sm:text-3xl"> Leave me a message</h2>
+
+            <p class="block text-2xl font-medium text-red-900 hover:opacity-75 sm:text-3xl py-10"> +44 7927 278404</p>
+            <h1>
+              {" "}
+              Got a question or proposal, or just want to say hello? Go ahead. I'm seeking out opportunities to collaborate with companies, agencies
+              and individuals. I want to bring my development skills to the table where we can work together to solve real business-problems in a way
+              that optimizes all of our respective experience and knowledge.
+            </h1>
           </div>
 
-          <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+          <div class="rounded-lg bg-gray-100 p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form ref={form} onSubmit={sendEmail} class="space-y-4">
               <div>
                 <label class="sr-only">Name</label>
