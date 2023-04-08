@@ -10,7 +10,7 @@ export default function MedvilleDesc() {
             <div class="relative z-10 lg:py-16">
               <div class="relative h-64 sm:h-80 lg:h-full">
                 <img
-                  alt="House"
+                  alt="Medville Logo"
                   src=" https://lh3.googleusercontent.com/YP9RBQJgtNRa5_khZ4eIGTtt_WcOZb6z700sXHNGGHYfq6MmD0t9FMQxFLxrY085YQhrKzDlEJ24A3lig1MYIzdo8xADnngE4KoFh0Hmpy2irjCS7JYGBbWqL8a3N3HNpst60DPrCaojL3_JWqZ6HfvzBV81n1BWRizYLg2aEtENpW4swrCyuhq2lFo6JNqsZyI7jC15CWNk6rQRYkA8AktyPHZ4DhA5oRK3j27CaegW2Q_KBonGcB606Hceu6cm6mHKrMaplqQutz2EeUaATjvBt1oWvdG9CbTBY6E6TYYlNDtgfQ1U8IxtEWnLV_2sYvrP8f4yUbkJ1VO9bMl6hUp8IdcExO1KHWpQhL8G2DwNff_rKMG_1wJVzZ_8tlfiBHIX28poFq9QalboxzeJTdzB0cVSI-b8bU-KbX_vJ6Eq-RsjdYDsya629bLbPz7mATC9vd12HkbaqFHJA4c8bkI3cnMTqMQAeKlVYC3GsqYm3RaTSKA-0wKTxeydNOx0K6Pe7MjePJJlFXicQZt2eakmoQv50LGTCnxx6OTOU51yaeL-Oorw5YPwwPhb61gQ0NJMnqguJuOpEqPqZCEw_XSc2VYjO3efq9RLBFcg2OUsZNxj95ZIlMT8jqQioNMT2Ftji2dlugP5vpOBIeg2l5n8ZpckwSgbKiB3aDNIPFhHEFCLBfaayLHgQ7rBHhNZTn0DVkVLWT669R3TFvwa3O3iYyci9lXSwt9VTNkjZW2S_Frp9MHomaWDIFL8CmrF4RXUw0yhW1Zj3GW_IWLP4CY-sJ4DeIc-eXUuGE7L7mY1nBnMwTmn26QRjlwk5KjC6V2vDCw0f1NKiUrRtxhKssXdVyuC3c7MQ9uCsH-QM5sIeClpu2UEJ5VLHQWD1VBl72BpGhUhYAsFfNFPXi3BteHnbxrR8FMWJK4xAX3J-ADJP5X0=w1080-h1064-s-no?authuser=0"
                   class="absolute inset-0 h-full w-full object-cover"
                 />

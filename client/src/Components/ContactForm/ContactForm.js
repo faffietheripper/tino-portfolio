@@ -24,7 +24,7 @@ export default function ContactUs() {
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:col-span-2 lg:py-12">
-            <h2 class="text-2xl sm:text-3xl"> Leave me a message</h2>
+            <h2 class="text-2xl sm:text-3xl"> Leave me a message 📮</h2>
 
             <p class="block text-2xl font-medium text-red-900 hover:opacity-75 sm:text-3xl py-10"> +44 7927 278404</p>
             <h1>

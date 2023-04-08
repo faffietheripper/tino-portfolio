@@ -9,15 +9,10 @@ export default function PageUnderCon() {
           <div class="text-center sm:text-left">
             <h2 class="text-2xl font-bold text-white sm:text-3xl md:text-5xl">Page Under Construction🚧</h2>
 
-            <p class="hidden max-w-lg text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore officia corporis quasi doloribus iure architecto quae voluptatum
-              beatae excepturi dolores.
-            </p>
-
             <div class="mt-4 sm:mt-8">
               <Link
                 to="/"
-                class="inline-block rounded-full bg-blue-300 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-400 focus:outline-none focus:ring focus:ring-yellow-400"
+                class="inline-block rounded-full bg-red-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-800 focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Return to Home Page
               </Link>
