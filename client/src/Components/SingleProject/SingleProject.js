@@ -44,12 +44,12 @@ export default function SingleProject({ coverimg, name, badge, img1, img2, img3,
                         <div class="relative mx-auto max-w-screen-xl px-4 py-8">
                           <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
                             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
-                              <img alt="" src={img1} class="aspect-square w-full rounded-xl object-fill" />
+                              <img alt="" src={img1} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
 
                               <div class="grid grid-cols-2 gap-4 lg:mt-4">
-                                <img alt="" src={img2} class="aspect-square w-full rounded-xl object-fill" />
+                                <img alt="" src={img2} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
 
-                                <img alt="" src={img3} class="aspect-square w-full rounded-xl object-fill" />
+                                <img alt="" src={img3} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
                               </div>
                             </div>
 
