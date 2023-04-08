@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function SingleProject({ coverimg, name, badge, description, link }) {
+export default function SingleProject({ coverimg, name, badge, img1, img2, img3, description, link }) {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
@@ -46,20 +46,20 @@ export default function SingleProject({ coverimg, name, badge, description, link
                             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                               <img
                                 alt=""
-                                src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                src={img1}
                                 class="aspect-square w-full rounded-xl object-cover"
                               />
 
                               <div class="grid grid-cols-2 gap-4 lg:mt-4">
                                 <img
                                   alt=""
-                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  src={img2}
                                   class="aspect-square w-full rounded-xl object-cover"
                                 />
 
                                 <img
                                   alt=""
-                                  src="https://images.unsplash.com/photo-1456948927036-ad533e53865c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                  src={img3}
                                   class="aspect-square w-full rounded-xl object-cover"
                                 />
                               </div>
