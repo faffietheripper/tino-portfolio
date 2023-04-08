@@ -4,7 +4,7 @@ export default function SingleTestimonial({img, name, role, message}) {
   return (
     <div>
       <div>
-          <blockquote class="bg-gray-100 p-8 text-black">
+          <blockquote class="bg-gray-100 p-8 text-black rounded">
             <div class="flex items-center gap-4">
               <img
                 alt="Profile Picture"

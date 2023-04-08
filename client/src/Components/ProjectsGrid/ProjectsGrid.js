@@ -4,7 +4,7 @@ import SingleProject from "../SingleProject/SingleProject";
 export default function ProjectsGrid() {
   return (
     <div>
-      <section class="bg-[url('https://lh3.googleusercontent.com/MQvxISMOhOFlgk7K8yw2W5FLzsDEQWSRonwDtkhTR_AR54THsDpYYclrGrRr8HIode03E8MlS2jm5ztrvIAl1p2Un0y3znSBkIky-pwZQIpcC7AkcypyMp4dr8_1K1RmdQ70crRsBcYCVJllEN20wueke7LiVdFUFvffWwVb28tBMYGrbfC7WQJmgSWVuR7iln9gD53N494CuwPol__vWC4smPhi6bUXAj9rS9erE7hnecHutsLuSD8R2cldV6IXX9i_pGZCWgXdppNkLHpdhyJwtn78slbx9bbXdxXzOKw_GOq2amhRU90O6MJSyoBYhzmnwEYF0CfdwLu8qTLKATMbdQcOztU2alhDiMw97kx3RRbsC8K02FDViLVNgxBiLFZcnxRaucTf_44NWbOaOml_dLLbEqVZM2sXjEyYU0tuq54KJJz7V43V2Tb-f-flmHZ6KFUj_fqxW8IM3VPRJUmBFg7C93CrPSC9R7IXlxGGo3b_itUYjtfX-WztLgqu1nDLxjsJCjZzcRjyvMOfSr_esK-_iFQwHMNBnJlPleG8nRPRRQREDUEFLzzhIGiWkGbX3-8jqSmRR_FhFLWh9hNR5Hhmkx6ZgcBjgtBwPEvaULdt756fRfvlB68mJ8IgJLXKqyN6uaql1MRpX6-K60neT0BawYKpdIaM4SOKA7tZPxUKxKxxDxF_3fQi5ZmZMN7Iyo0lPVsZzTemxCTqbmZ5jCgYf1hAAtOmgopPEc7QDyYdlsPwsvehcEQR5wgIXQSNtZfEDChgTwn2Cs7k3kvtuStxUERCkq1oKLwutd-ekQNPFyShy8hR28mS0Jn4aIywowfJ3RdMLoxgtWbakTamTsokZ6y99wDv8U14w4XKGrY8Rabcbba08wbtJGtgjQy0SgUM58Az_jKTm0qqdo4ybtYhMGG3FwO_1fHWnyt_stYy=s220-no?authuser=0')] bg-cover text-black">
+      <section class="bg-gray-100 text-black">
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="text-4xl font-bold sm:text-5xl pb-8">01.Recent Works 💼</h2>
