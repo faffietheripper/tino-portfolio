@@ -3,6 +3,7 @@ import ProjectsGrid from "../../Components/ProjectsGrid/ProjectsGrid";
 import WorkApproach from "../../Components/WorkApproach/WorkApproach";
 import Footer from "../../Components/Footer/Footer";
 import TestimonialsGrid from "../../Components/TestimonialsGrid/TestimonialsGrid";
+import BacktoTop from "./Components/BacktoTop/BacktoTop";
 
 export default function Projects() {
   return (
@@ -11,6 +12,7 @@ export default function Projects() {
       <WorkApproach />
       <TestimonialsGrid />
       <Footer />
+      <BacktoTop />
     </div>
   );
 }

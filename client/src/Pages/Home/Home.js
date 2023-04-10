@@ -4,6 +4,7 @@ import Footer from "../../Components/Footer/Footer";
 import HomeHero from "../../Components/HomeHero/HomeHero";
 import Mission from "../../Components/Mission/Mission";
 import Skills from "../../Components/Skills/Skills";
+import BacktoTop from "./Components/BacktoTop/BacktoTop";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Skills />
       <Mission />
       <Footer/>
+      <BacktoTop />
     </>
   );
 }
