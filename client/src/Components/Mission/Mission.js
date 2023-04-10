@@ -21,11 +21,15 @@ export default function Mission() {
             <div class="lg:py-16">
               <article class="space-y-4 text-gray-600">
                 <p>
-                  Having recently graduated from a full stack web development bootcamp my coding skills arent as advanced as the average experienced software developer however as mentioned above, I plan on continuing to learn new programming languages so that I can be able to create fluent and fashionable user experiences.
+                  Having recently graduated from a full stack web development bootcamp my coding skills arent as advanced as the average experienced
+                  software developer however as mentioned above, I plan on continuing to learn new programming languages so that I can be able to
+                  create fluent and fashionable user experiences.
                 </p>
 
                 <p>
-                 As far as React applications are concerned, I am equipped with just the right tools, and can absolutely function independently with them to deliver fast and resilient solutions optimized for scale. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful softwares.
+                  As far as React applications are concerned, I am equipped with just the right tools, and can absolutely function independently with
+                  them to deliver fast and resilient solutions optimized for scale. As I grow as a developer, I hope to write clean, readable code
+                  that can be used by others and leveraged to create beautiful softwares.
                 </p>
               </article>
             </div>

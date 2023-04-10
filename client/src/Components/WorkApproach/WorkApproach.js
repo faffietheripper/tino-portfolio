@@ -8,7 +8,12 @@ export default function WorkApproach() {
           <div class="max-w-xl">
             <h2 class="text-3xl font-bold sm:text-4xl">02.What makes my work special🐬</h2>
 
-            <p class="mt-4 text-gray-300">There have been far too many times where I've been trying to accomplish a simple task on a website, and ended up wanting to throw my computer out the window in frustration. Needless to say, user experience is an aspect of software I believe is vital to a successful product and I believe that this approach I take to completing my project ensures that my customers get the best experience when using my products.</p>
+            <p class="mt-4 text-gray-300">
+              There have been far too many times where I've been trying to accomplish a simple task on a website, and ended up wanting to throw my
+              computer out the window in frustration. Needless to say, user experience is an aspect of software I believe is vital to a successful
+              product and I believe that this approach I take to completing my project ensures that my customers get the best experience when using my
+              products.
+            </p>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 text-black">
@@ -65,7 +70,8 @@ export default function WorkApproach() {
                     <h3 class="mt-4 text-xl font-medium sm:text-2xl">Design</h3>
 
                     <p class="mt-4 text-sm sm:text-base">
-                      Misleadingly thought of as the superficial appearance of a product, design actually encompasses a lot more. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
+                      Misleadingly thought of as the superficial appearance of a product, design actually encompasses a lot more. I strive to design
+                      interfaces and experiences that people can enjoy on all digital mediums.
                     </p>
                   </div>
                 </div>

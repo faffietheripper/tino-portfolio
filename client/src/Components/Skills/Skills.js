@@ -10,8 +10,9 @@ export default function Skills() {
               <h2 class="text-3xl font-bold sm:text-4xl">03.Experience 👨‍💻</h2>
 
               <p class="mt-4 text-gray-600">
-                With a mission to exploit and present the possibilities of web development, I plan on learning PHP and Laravel in the near future but the following are a few
-                technologies I have been working with recently. You can read more about my experience, skills, education and much more in the resume below👇
+                With a mission to exploit and present the possibilities of web development, I plan on learning PHP and Laravel in the near future but
+                the following are a few technologies I have been working with recently. You can read more about my experience, skills, education and
+                much more in the resume below👇
               </p>
 
               <a
@@ -24,12 +25,12 @@ export default function Skills() {
             </div>
 
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
-              <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" />
-              <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" />
-              <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" />
-              <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" />
-              <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" />
-              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" />
+              <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="" />
+              <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="" />
+              <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="" />
+              <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="" />
+              <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="" />
+              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="" />
             </div>
           </div>
         </div>
