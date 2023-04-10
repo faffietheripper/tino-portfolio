@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../Images/MedvilleLogo.jpeg"
 
 export default function MedvilleDesc() {
   return (
@@ -9,7 +10,7 @@ export default function MedvilleDesc() {
           <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
             <div class="relative z-10 lg:py-16">
               <div class="relative h-64 sm:h-80 lg:h-full">
-                <img alt="Medville Logo" src="Images/MedvilleLogo.jpeg" class="absolute inset-0 h-full w-full object-cover" />
+                <img alt="Medville Logo" src={Logo} class="absolute inset-0 h-full w-full object-cover" />
               </div>
             </div>
 
