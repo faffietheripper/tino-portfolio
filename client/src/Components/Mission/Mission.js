@@ -1,5 +1,5 @@
 import React from "react";
-import Mission from "../../Images/Mission.jpeg";
+import MissionImg from "../../Images/MissionImg.jpeg";
 
 export default function Mission() {
   return (
@@ -12,7 +12,7 @@ export default function Mission() {
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-              <img alt="Mission" src={Mission} class="absolute inset-0 h-full w-full object-cover" />
+              <img alt="Mission" src={MissionImg} class="absolute inset-0 h-full w-full object-cover" />
             </div>
 
             <div class="lg:py-16">
