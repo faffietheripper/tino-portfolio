@@ -12,7 +12,7 @@ import Zibah3 from "../../Images/ZibahModal/Zibah3.png";
 export default function ProjectsGrid() {
   return (
     <div>
-      <section class="bg-gray-100 text-black mt-16 md:mt-10">
+      <section class="bg-gray-100 text-black mt-28 md:mt-10">
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="text-4xl font-bold sm:text-5xl pb-8">Recent Works 💼</h2>
