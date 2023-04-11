@@ -8,6 +8,9 @@ module.exports = {
         100: "100",
       },
     },
+    backgroundImage: {
+      "tino-bg": "url('../public/tino.jpg')",
+    },
   },
   plugins: [],
 };
