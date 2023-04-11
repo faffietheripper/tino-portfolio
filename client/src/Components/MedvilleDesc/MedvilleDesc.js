@@ -21,7 +21,7 @@ export default function MedvilleDesc() {
                 <h2 class="text-2xl font-bold sm:text-3xl">Medville Healthcare Online</h2>
 
                 <p class="mt-4 text-gray-600">
-                  Medville is an idea me and my brother have had for a wile now but when we first had the idea we didn’t have the skillset or
+                  Medville is an idea my brother and I have had for a wile now but when we first had the idea we didn’t have the skillset or
                   financial resources to bring it to fruition. Now that I completed my MERN Stack course, it’s an idea I am really enthusiastic about
                   and want to bring to life. Basically I had already started working on the code in the past (well paid someone to do it ) but I have
                   a bunch of php files that I really don’t know how to work with because I have only done the MERN Stack. I am willing and looking to

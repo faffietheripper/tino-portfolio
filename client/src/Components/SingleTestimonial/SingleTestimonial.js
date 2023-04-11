@@ -14,7 +14,7 @@ export default function SingleTestimonial({ img, name, role, message }) {
             </div>
           </div>
 
-          <p class="relative mt-4 text-gray-500">
+          <p class="relative mt-4 text-gray-200">
             <span class="text-xl">&ldquo;</span>
 
             {message}

@@ -9,8 +9,8 @@ export default function Header() {
           <a className="block text-teal-600" href="/">
             <span className="sr-only">Home</span>
           </a>
-
-          <div className="flex flex-1 items-center md:justify-between justify-between">
+className="flex flex-1 items-center md:justify-between justify-between"
+          <div >
             <nav aria-label="Site Nav" className=" md:block ">
               <ul className="flex items-center gap-6 text-sm">
                 <li>

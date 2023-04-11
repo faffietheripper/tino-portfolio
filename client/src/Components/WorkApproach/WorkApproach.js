@@ -6,7 +6,7 @@ export default function WorkApproach() {
       <section class=" text-white px-14">
         <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="max-w-xl">
-            <h2 class="text-3xl font-bold sm:text-4xl">02.What makes my work special🐬</h2>
+            <h2 class="text-3xl font-bold sm:text-4xl">What makes my work special🐬</h2>
 
             <p class="mt-4 text-gray-300">
               There have been far too many times where I've been trying to accomplish a simple task on a website, and ended up wanting to throw my

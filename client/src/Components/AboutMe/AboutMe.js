@@ -11,9 +11,9 @@ export default function AboutMe() {
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div class="bg-gray-100 p-8 md:p-12 lg:px-16 lg:py-24">
               <div class="mx-auto max-w-xl text-center">
-                <h2 class="text-2xl font-bold text-black md:text-3xl">02.About Me 💁‍♂️</h2>
+                <h2 class="text-2xl font-bold text-black md:text-3xl">About Me 💁‍♂️</h2>
 
-                <p class="text-black/90 sm:mt-4 sm:block">
+                <p class="text-black/90 mt-6 sm:mt-4 sm:block">
                   Hey, my name is Tino and I'm a multi-talented human from the UK that designs and builds digital products. I currently work remotely
                   as a freelancer under SkyRockers Ltd and am open to new opportunities. My profuse energy levels allow me to pick up new skills and
                   juggle different projects with ease.

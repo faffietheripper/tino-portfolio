@@ -4,12 +4,12 @@ import Projects from "./Pages/Projects/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./Pages/Contact/Contact";
 import SkyRockers from "./Pages/Medville/Medville";
-import Header from "./Components/Header/Header";
+import Hamburger from "./Components/Hamburger/Hamburger";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <Hamburger />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

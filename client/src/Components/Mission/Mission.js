@@ -7,7 +7,7 @@ export default function Mission() {
       <section className="text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-5xl">04.Better design, better experience 🌍</h2>
+            <h2 class="text-3xl font-bold sm:text-5xl">Better design, better experience 🌍</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -16,7 +16,7 @@ export default function Mission() {
             </div>
 
             <div class="lg:py-16">
-              <article class="space-y-4 text-gray-600">
+              <article class="space-y-4 text-gray-200">
                 <p>
                   Having recently graduated from a full stack web development bootcamp my coding skills arent as advanced as the average experienced
                   software developer however as mentioned above, I plan on continuing to learn new programming languages so that I can be able to
