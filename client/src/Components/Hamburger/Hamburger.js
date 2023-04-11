@@ -10,9 +10,9 @@ export default function Hamburger() {
     <div class="fixed w-full top-0 left-0 text-white bg-red z-100">
       <div class="md:flex items-center justify-between  bg-black md:py-4 py-8 md:px-10 px-7">
         <div class="cursor-pointer">
-          <logo>
+          <Link to="/">
             <img src={Weblogo} alt="logo" class="h-[30px] ml-8" />
-          </logo>
+          </Link>
         </div>
         <div class="text-3xl absolute right-8 text-white top-6 cursor-pointer md:hidden" onClick={() => setOpen(!open)}>
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
