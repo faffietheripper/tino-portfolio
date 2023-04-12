@@ -7,10 +7,10 @@ export default function ContactUs() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_hz4se9h", "template_l2jutkj", form.current, "qNsMWr4j71vACFSXb").then(
+    emailjs.sendForm("service_vnzcvkd", "template_m6xogq5", form.current, "Kd-Wy1G6wt9g8lOxT").then(
       (result) => {
         console.log(result.text);
-        alert("message sent");
+        alert("Hey thank you for reaching out. Your message has been sent and Tino will be in touch with you soon.");
       },
       (error) => {
         console.log(error.text);
