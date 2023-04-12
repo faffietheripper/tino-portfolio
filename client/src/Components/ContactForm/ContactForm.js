@@ -39,17 +39,22 @@ export default function ContactUs() {
             <form ref={form} onSubmit={sendEmail} class="space-y-4">
               <div>
                 <label class="sr-only">Name</label>
-                <input class="w-full rounded-lg border border-gray-200 p-3 text-sm" type="text" placeholder="Full Name" name="user_name" />
+                <input class="w-full rounded-lg border border-gray-200 p-3 text-sm text-black" type="text" placeholder="Full Name" name="user_name" />
               </div>
 
               <div>
                 <label class="sr-only">Email</label>
-                <input class="w-full rounded-lg border border-gray-200 p-3 text-sm" type="email" placeholder="Email address" name="user_email" />
+                <input
+                  class="w-full rounded-lg border border-gray-200 p-3 text-sm text-black"
+                  type="email"
+                  placeholder="Email address"
+                  name="user_email"
+                />
               </div>
 
               <div>
                 <label class="sr-only">Message</label>
-                <textarea class="w-full rounded-lg border border-gray-200 p-3 text-sm" name="message" placeholder="Message" />
+                <textarea class="w-full rounded-lg border border-gray-200 p-3 text-sm text-black" name="message" placeholder="Message" />
               </div>
               <div>
                 <button type="submit" value="Send" class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto">
