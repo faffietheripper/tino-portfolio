@@ -62,8 +62,9 @@ export default function SingleProject({ coverimg, name, badge, img1, img2, img3,
                                   <Link
                                     to={link}
                                     className="bg-transparent w-fit my-2 text-red-600 border border-red-600 active:bg-gray-200 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                    target="_blank"
                                   >
-                                    DEMO
+                                    Visit Site
                                   </Link>
                                 </div>
                               </div>
