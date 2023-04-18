@@ -8,6 +8,7 @@ import Port3 from "../../Images/PortfolioModal/Port3.png";
 import Zibah1 from "../../Images/ZibahModal/Zibah1.png";
 import Zibah2 from "../../Images/ZibahModal/Zibah2.png";
 import Zibah3 from "../../Images/ZibahModal/Zibah3.png";
+import Mtungwa from "../../Images/Mntungwa.jpeg";
 
 export default function ProjectsGrid() {
   return (
@@ -38,18 +39,18 @@ export default function ProjectsGrid() {
                 img1={Zibah1}
                 img2={Zibah2}
                 img3={Zibah3}
-                badge={<span class="whitespace-nowrap rounded-full bg-blue-100 px-2.5 py-0.5 text-sm text-blue-700">Building</span>}
-                description="Zibah Creations is a small retail business based in Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
-                link=""
+                badge={<span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">Completed</span>}
+                description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
+                link="https://zibahcreations.netlify.app"
               />
             </div>
 
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
               <SingleProject
-                coverimg="https://www.jayleegroup.com/images/logo.png"
-                name="Jaylee Group"
+                coverimg={Mtungwa}
+                name=" Mntungwa Events"
                 badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
-                description="Jaylee Group is a South African broad based business consultancy firm that has three main divisions focused on: Training & Development, Financial Services Consultancy and Project Management Services. The organisation has more than 20 years projects experience combined and has successfully executed more than 500 projects across all industries."
+                description="Mntungwa is an events and projects management business based in Bulawayo, Zimbabwe and I am currenty working on their website."
                 link=""
               />
             </div>
