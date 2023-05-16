@@ -48,9 +48,9 @@ export default function ProjectsGrid() {
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
               <SingleProject
                 coverimg={Mtungwa}
-                name=" Mntungwa Events"
+                name="Events Management Business Template"
                 badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
-                description="Mntungwa is an events and projects management business based in Bulawayo, Zimbabwe and I am currenty working on their website."
+                description="This is a template website I made for a business that specialises in events management."
                 link=""
               />
             </div>
