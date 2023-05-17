@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Footer.css"
 
 export default function Footer() {
   return (
@@ -39,6 +40,15 @@ export default function Footer() {
                       clipRule="evenodd"
                     />
                   </svg>
+                </a>
+              </li><li>
+                <a
+                  href=" https://github.com/faffietheripper"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700  transition hover:opacity-75 h-32 w-6"
+                >
+                 <ion-icon name="logo-github"></ion-icon>
                 </a>
               </li>
             </ul>
