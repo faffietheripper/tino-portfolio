@@ -9,6 +9,7 @@ import Zibah1 from "../../Images/ZibahModal/Zibah1.png";
 import Zibah2 from "../../Images/ZibahModal/Zibah2.png";
 import Zibah3 from "../../Images/ZibahModal/Zibah3.png";
 import Mtungwa from "../../Images/Mntungwa.jpeg";
+import Saltech  from "../../Images/Saltech"
 
 export default function ProjectsGrid() {
   return (
@@ -51,6 +52,15 @@ export default function ProjectsGrid() {
                 name="Events Management Business Template"
                 badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
                 description="This is a template website I made for a business that specialises in events management."
+                link="https://mntungwaevents.netlify.app/"
+              />
+            </div>
+            <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
+              <SingleProject
+                coverimg={Saltech}
+                name="Saltech Timber"
+                badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
+                description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
                 link=""
               />
             </div>
