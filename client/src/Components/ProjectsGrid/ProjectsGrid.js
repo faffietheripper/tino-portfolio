@@ -9,7 +9,7 @@ import Zibah1 from "../../Images/ZibahModal/Zibah1.png";
 import Zibah2 from "../../Images/ZibahModal/Zibah2.png";
 import Zibah3 from "../../Images/ZibahModal/Zibah3.png";
 import Mtungwa from "../../Images/Mntungwa.jpeg";
-import Saltech  from "../../Images/Saltech"
+import Saltech  from "../../Images/Saltech Logo.png";
 
 export default function ProjectsGrid() {
   return (
