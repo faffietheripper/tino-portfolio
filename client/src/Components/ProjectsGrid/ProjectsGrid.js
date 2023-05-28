@@ -62,7 +62,7 @@ export default function ProjectsGrid() {
                 name="Saltech Timber"
                 badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
                 description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
-                link=""
+                link="https://saltech.netlify.app/"
               />
             </div>
           </div>
