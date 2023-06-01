@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function SingleProject({ coverimg, name, badge, img1, img2, img3, description, link }) {
+export default function SingleProject({ coverimg, name, badge, img1, description, link }) {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
@@ -46,11 +46,7 @@ export default function SingleProject({ coverimg, name, badge, img1, img2, img3,
                             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
                               <img alt="" src={img1} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
 
-                              <div class="grid grid-cols-2 gap-4 lg:mt-4">
-                                <img alt="" src={img2} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
-
-                                <img alt="" src={img3} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
-                              </div>
+                             
                             </div>
 
                             <div class="sticky top-0">

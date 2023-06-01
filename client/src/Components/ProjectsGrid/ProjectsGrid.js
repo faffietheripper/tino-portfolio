@@ -2,12 +2,6 @@ import React from "react";
 import SingleProject from "../SingleProject/SingleProject";
 import PortfolioCover from "../../Images/PortfolioCover.png";
 import ZibahCover from "../../Images/ZibahCover.jpeg";
-import Port1 from "../../Images/PortfolioModal/Port1.png";
-import Port2 from "../../Images/PortfolioModal/Port2.png";
-import Port3 from "../../Images/PortfolioModal/Port3.png";
-import Zibah1 from "../../Images/ZibahModal/Zibah1.png";
-import Zibah2 from "../../Images/ZibahModal/Zibah2.png";
-import Zibah3 from "../../Images/ZibahModal/Zibah3.png";
 import Mtungwa from "../../Images/Mntungwa.jpeg";
 import Saltech  from "../../Images/Saltech logo.png";
 
@@ -25,9 +19,7 @@ export default function ProjectsGrid() {
               <SingleProject
                 coverimg={PortfolioCover}
                 name="Personal Portfolio"
-                img1={Port1}
-                img2={Port2}
-                img3={Port3}
+                img1={PortfolioCover}
                 description="This is the first iteration of my personal website. After recently completely a coding bootcamp I thought it would be a great way to refresh my brain of some of the techniques and skills I had learnt by making this portfolio. Hopefully with more practice and learning my web development and design skills will improve immensely. "
                 link="https://tinompofu.netlify.app"
                 badge={<span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">Completed</span>}
@@ -37,9 +29,7 @@ export default function ProjectsGrid() {
               <SingleProject
                 coverimg={ZibahCover}
                 name="Zibah Creations"
-                img1={Zibah1}
-                img2={Zibah2}
-                img3={Zibah3}
+                img1={ZibahCover}
                 badge={<span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">Completed</span>}
                 description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
                 link="https://zibahcreations.netlify.app"
@@ -49,7 +39,9 @@ export default function ProjectsGrid() {
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
               <SingleProject
                 coverimg={Mtungwa}
-                name="Events Management Business Template"
+                img1={Mtungwa}
+              
+                name="Mntungwa Events"
                 badge={<span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">Awaiting Content</span>}
 
                 description="This is a template website I made for a business that specialises in events management."
@@ -59,8 +51,10 @@ export default function ProjectsGrid() {
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
               <SingleProject
                 coverimg={Saltech}
+                img1={Saltech}
                 name="Saltech Timber"
-                badge={<span class="whitespace-nowrap rounded-full bg-orange-100 px-2.5 py-0.5 text-sm text-orange-700">Designing</span>}
+                badge={<span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">Awaiting Content</span>}
+
                 description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
                 link="https://saltech.netlify.app/"
               />
