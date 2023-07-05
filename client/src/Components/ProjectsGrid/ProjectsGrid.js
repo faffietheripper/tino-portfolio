@@ -29,20 +29,6 @@ export default function ProjectsGrid() {
                 }
               />
             </div>
-            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
-              <SingleProject
-                coverimg={ZibahCover}
-                name="Zibah Creations"
-                img1={ZibahCover}
-                badge={
-                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
-                    Completed
-                  </span>
-                }
-                description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
-                link="https://zibahcreations.netlify.app"
-              />
-            </div>
 
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
               <SingleProject
@@ -55,7 +41,7 @@ export default function ProjectsGrid() {
                   </span>
                 }
                 description="This is a template website I made for a business that specialises in events management."
-                link="https://mntungwaevents.netlify.app/"
+                link="https://mntungwa-events.vercel.app/"
               />
             </div>
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
@@ -70,6 +56,20 @@ export default function ProjectsGrid() {
                 }
                 description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
                 link="https://saltech-timber.vercel.app/"
+              />
+            </div>
+            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
+              <SingleProject
+                coverimg={ZibahCover}
+                name="Zibah Creations"
+                img1={ZibahCover}
+                badge={
+                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
+                    Completed
+                  </span>
+                }
+                description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
+                link="https://zibahcreations.netlify.app"
               />
             </div>
           </div>
