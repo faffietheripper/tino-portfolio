@@ -69,7 +69,7 @@ export default function ProjectsGrid() {
                   </span>
                 }
                 description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
-                link="https://zibahcreations.netlify.app"
+                link="https://zibah-creations.vercel.app/"
               />
             </div>
           </div>
