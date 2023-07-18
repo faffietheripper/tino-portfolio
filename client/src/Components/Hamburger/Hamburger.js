@@ -10,11 +10,14 @@ export default function Hamburger() {
     <div class="fixed w-full top-0 left-0 text-white bg-red z-100">
       <div class="md:flex items-center justify-between  bg-black md:py-4 py-8 md:px-10 px-7">
         <div class="cursor-pointer">
-          <Link to="/">
+          <a href="/">
             <img src={Weblogo} alt="logo" class="h-[30px] ml-8" />
-          </Link>
+          </a>
         </div>
-        <div class="text-3xl absolute right-8 text-white top-6 cursor-pointer md:hidden" onClick={() => setOpen(!open)}>
+        <div
+          class="text-3xl absolute right-8 text-white top-6 cursor-pointer md:hidden"
+          onClick={() => setOpen(!open)}
+        >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
         <div>
@@ -24,26 +27,38 @@ export default function Hamburger() {
             }`}
           >
             <li class="my-16 md:my-2" onClick={() => setOpen(!open)}>
-              <Link className="text-gray-200 transition hover:text-gray-500/75" to="/">
+              <a
+                className="text-gray-200 transition hover:text-gray-500/75"
+                href="/"
+              >
                 Home
-              </Link>
+              </a>
             </li>
 
             <li class="my-16 md:my-2" onClick={() => setOpen(!open)}>
-              <Link className="text-gray-200 transition hover:text-gray-500/75" to="/projects">
+              <a
+                className="text-gray-200 transition hover:text-gray-500/75"
+                href="/projects"
+              >
                 Projects
-              </Link>
+              </a>
             </li>
 
             <li class="my-16 md:my-2" onClick={() => setOpen(!open)}>
-              <Link className="text-gray-200 transition hover:text-gray-500/75" to="/contact">
+              <a
+                className="text-gray-200 transition hover:text-gray-500/75"
+                href="/contact"
+              >
                 Contact
-              </Link>
+              </a>
             </li>
             <li class="my-16 md:my-2" onClick={() => setOpen(!open)}>
-              <Link className="text-gray-200 transition hover:text-gray-500/75" to="/medville">
+              <a
+                className="text-gray-200 transition hover:text-gray-500/75"
+                href="/medville"
+              >
                 Medville
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

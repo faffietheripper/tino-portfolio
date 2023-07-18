@@ -1,7 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-export default function SingleProject({ coverimg, name, badge, img1, description, link }) {
+export default function SingleProject({
+  coverimg,
+  name,
+  badge,
+  img1,
+  description,
+  link,
+}) {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
@@ -30,12 +36,16 @@ export default function SingleProject({ coverimg, name, badge, img1, description
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-gray-100 outline-none focus:outline-none">
                     {/*header*/}
                     <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                      <h3 className="text-3xl font-semibold">Project Details</h3>
+                      <h3 className="text-3xl font-semibold">
+                        Project Details
+                      </h3>
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}
                       >
-                        <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">×</span>
+                        <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                          ×
+                        </span>
                       </button>
                     </div>
                     {/*body*/}
@@ -44,9 +54,11 @@ export default function SingleProject({ coverimg, name, badge, img1, description
                         <div class="relative mx-auto max-w-screen-xl px-4 py-8">
                           <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
                             <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
-                              <img alt="" src={img1} class="aspect-square w-full rounded-xl object-contain border border-gray-900" />
-
-                             
+                              <img
+                                alt=""
+                                src={img1}
+                                class="aspect-square w-full rounded-xl object-contain border border-gray-900"
+                              />
                             </div>
 
                             <div class="sticky top-0">
@@ -55,13 +67,13 @@ export default function SingleProject({ coverimg, name, badge, img1, description
                               <div class="mt-4">
                                 <div class="prose max-w-none flex flex-col justify-center">
                                   <p>{description}</p>
-                                  <Link
-                                    to={link}
+                                  <a
+                                    href={link}
                                     className="bg-transparent w-fit my-2 text-red-600 border border-red-600 active:bg-gray-200 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                     target="_blank"
                                   >
                                     Visit Site
-                                  </Link>
+                                  </a>
                                 </div>
                               </div>
                             </div>
