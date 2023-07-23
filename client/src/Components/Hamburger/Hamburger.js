@@ -1,6 +1,5 @@
 import React from "react";
 import Weblogo from "../../Images/Website Logo.jpg";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function Hamburger() {

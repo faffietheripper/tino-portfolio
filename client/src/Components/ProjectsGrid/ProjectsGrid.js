@@ -4,6 +4,7 @@ import PortfolioCover from "../../Images/PortfolioCover.png";
 import ZibahCover from "../../Images/ZibahCover.jpeg";
 import Mtungwa from "../../Images/Mntungwa.jpeg";
 import Saltech from "../../Images/Saltech logo.png";
+import SIT from "../../Images/logo.jpg";
 
 export default function ProjectsGrid() {
   return (
@@ -29,19 +30,18 @@ export default function ProjectsGrid() {
                 }
               />
             </div>
-
-            <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
+            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
               <SingleProject
-                coverimg={Mtungwa}
-                img1={Mtungwa}
-                name="Mntungwa Events"
+                coverimg={ZibahCover}
+                name="Zibah Creations"
+                img1={ZibahCover}
                 badge={
                   <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
-                    Awaiting Content
+                    Completed
                   </span>
                 }
-                description="This is a template website I made for a business that specialises in events management."
-                link="https://mntungwa-events.vercel.app/"
+                description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
+                link="https://zibah-creations.vercel.app/"
               />
             </div>
             <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
@@ -58,18 +58,35 @@ export default function ProjectsGrid() {
                 link="https://saltech-timber.vercel.app/"
               />
             </div>
+
+            <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
+              <SingleProject
+                coverimg={Mtungwa}
+                img1={Mtungwa}
+                name="Mntungwa Events"
+                badge={
+                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
+                    Awaiting Content
+                  </span>
+                }
+                description="This is a template website I made for a business that specialises in events management."
+                link="https://mntungwa-events.vercel.app/"
+              />
+            </div>
+
             <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
               <SingleProject
-                coverimg={ZibahCover}
-                name="Zibah Creations"
-                img1={ZibahCover}
+                coverimg={SIT}
+                name="Skyrockers Institute of Technology Demo"
+                img1={SIT}
+                description="I made this website so that I could show case my ability to make full stack applications with backend functions. On this website after you have accessed the dashboard route you are able to update different pages on the website with the latest school news.
+               "
+                link="https://skyrockers.vercel.app/"
                 badge={
                   <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
                     Completed
                   </span>
                 }
-                description="This is an ecommerce website specifically tailored for  custom products shop. It has a secure administration page where the owner of the business can add products to their catalogue on their own. Zibah Creations is a small retail business based in Harare, Zimbabwe. They sell customised and handcrafted macrame products varying from handbags to belts and pillow cases. I have personally bought some of their products and I would recommend you have a look at their website."
-                link="https://zibah-creations.vercel.app/"
               />
             </div>
           </div>
