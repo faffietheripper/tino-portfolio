@@ -12,7 +12,7 @@ export default function SingleProject({
 
   return (
     <div>
-      <article class="overflow-hidden h-[400px] rounded-lg border border-gray-100 shadow-sm ">
+      <article class="overflow-hidden h-[400px] rounded-lg  shadow-sm ">
         <img alt="Office" src={coverimg} class="h-56 w-full object-contain" />
 
         <div class="p-4 sm:p-6">

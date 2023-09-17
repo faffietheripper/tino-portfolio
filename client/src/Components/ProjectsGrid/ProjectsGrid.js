@@ -9,14 +9,14 @@ import SIT from "../../Images/logo.jpg";
 export default function ProjectsGrid() {
   return (
     <div>
-      <section class="bg-gray-100 text-black mt-28 md:mt-10">
+      <section class=" text-white mt-28 md:mt-10">
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="text-4xl font-bold sm:text-5xl pb-8">Recent Works 💼</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
+            <div class="block rounded-xl p-8 shadow-xl border transition hover:shadow-red-500/100">
               <SingleProject
                 coverimg={PortfolioCover}
                 name="Personal Portfolio"
@@ -30,7 +30,7 @@ export default function ProjectsGrid() {
                 }
               />
             </div>
-            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
+            <div class="block rounded-xl p-8 shadow-xl border transition hover:shadow-red-500/100">
               <SingleProject
                 coverimg={ZibahCover}
                 name="Zibah Creations"
@@ -44,7 +44,7 @@ export default function ProjectsGrid() {
                 link="https://zibah-creations.vercel.app/"
               />
             </div>
-            <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
+            <div class="block rounded-xl p-8 shadow-xl transition border hover:shadow-red-500/100">
               <SingleProject
                 coverimg={Saltech}
                 img1={Saltech}
@@ -59,7 +59,7 @@ export default function ProjectsGrid() {
               />
             </div>
 
-            <div class="block rounded-xl border  p-8 shadow-xl transition  hover:shadow-red-500/10">
+            <div class="block rounded-xl  p-8 shadow-xl transition border hover:shadow-red-500/100">
               <SingleProject
                 coverimg={Mtungwa}
                 img1={Mtungwa}
@@ -71,22 +71,6 @@ export default function ProjectsGrid() {
                 }
                 description="This is a template website I made for a business that specialises in events management."
                 link="https://mntungwa-events.vercel.app/"
-              />
-            </div>
-
-            <div class="block rounded-xl border p-8 shadow-xl transition hover:shadow-red-500/10">
-              <SingleProject
-                coverimg={SIT}
-                name="Skyrockers Institute of Technology Demo"
-                img1={SIT}
-                description="I made this website so that I could show case my ability to make full stack applications with backend functions. On this website after you have accessed the dashboard route you are able to update different pages on the website with the latest school news.
-               "
-                link="https://skyrockers.vercel.app/"
-                badge={
-                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
-                    Completed
-                  </span>
-                }
               />
             </div>
           </div>
