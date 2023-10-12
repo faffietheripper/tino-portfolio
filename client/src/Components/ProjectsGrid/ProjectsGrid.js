@@ -4,7 +4,8 @@ import PortfolioCover from "../../Images/PortfolioCover.png";
 import ZibahCover from "../../Images/ZibahCover.jpeg";
 import Mtungwa from "../../Images/Mntungwa.jpeg";
 import Saltech from "../../Images/Saltech logo.png";
-import SIT from "../../Images/logo.jpg";
+import Medville from "../../Images/medvillelogo.jpg";
+import BA from "../../Images/BA.PNG";
 
 export default function ProjectsGrid() {
   return (
@@ -16,6 +17,34 @@ export default function ProjectsGrid() {
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="block rounded-xl p-8 shadow-xl transition border hover:shadow-red-500/100">
+              <SingleProject
+                coverimg={Medville}
+                img1={Medville}
+                name="Medville Healthcare Online"
+                badge={
+                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
+                    Completed
+                  </span>
+                }
+                description="Medville is a telemedicine I am currently working on and this is its landing website."
+                link="https://medville.vercel.app/"
+              />
+            </div>
+            <div class="block rounded-xl p-8 shadow-xl transition border hover:shadow-red-500/100">
+              <SingleProject
+                coverimg={Saltech}
+                img1={Saltech}
+                name="Saltech Timber"
+                badge={
+                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
+                    Completed
+                  </span>
+                }
+                description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
+                link="https://saltech-timber.vercel.app/"
+              />
+            </div>
             <div class="block rounded-xl p-8 shadow-xl border transition hover:shadow-red-500/100">
               <SingleProject
                 coverimg={PortfolioCover}
@@ -44,20 +73,6 @@ export default function ProjectsGrid() {
                 link="https://zibah-creations.vercel.app/"
               />
             </div>
-            <div class="block rounded-xl p-8 shadow-xl transition border hover:shadow-red-500/100">
-              <SingleProject
-                coverimg={Saltech}
-                img1={Saltech}
-                name="Saltech Timber"
-                badge={
-                  <span class="whitespace-nowrap rounded-full bg-green-100 px-2.5 py-0.5 text-sm text-green-700">
-                    Awaiting Content
-                  </span>
-                }
-                description="Saltech Timber Co is a timber salvaging business based in Zimbabwe."
-                link="https://saltech-timber.vercel.app/"
-              />
-            </div>
 
             <div class="block rounded-xl  p-8 shadow-xl transition border hover:shadow-red-500/100">
               <SingleProject
@@ -71,6 +86,20 @@ export default function ProjectsGrid() {
                 }
                 description="This is a template website I made for a business that specialises in events management."
                 link="https://mntungwa-events.vercel.app/"
+              />
+            </div>
+            <div class="block rounded-xl  p-8 shadow-xl transition border hover:shadow-red-500/100">
+              <SingleProject
+                coverimg={BA}
+                img1={BA}
+                name="Body Active"
+                badge={
+                  <span class="whitespace-nowrap rounded-full bg-red-100 px-2.5 py-0.5 text-sm text-red-700">
+                    Under Construction
+                  </span>
+                }
+                description="This is a website for a media and fitness company based in London that I am currently working on."
+                link=""
               />
             </div>
           </div>
